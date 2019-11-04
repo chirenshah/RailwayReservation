@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+  <tr>
+    <th>Name of Passenger</th>
+    <th>Age</th>
+    <th>Gender</th>
+    <th>Preference</th>
+  </tr>
+  <tr>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Passenger 1"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Age"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Gender"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Preference"></td>
+    
+  </tr>
+  <tr>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Passenger 2"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Age"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Gender"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Preference"></td>
+  </tr>
+  <tr>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Passenger 3"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Age"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Gender"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Preference"></td>
+  </tr>
+  <tr>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Passenger 4"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Age"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Gender"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Preference"></td>
+  </tr>
+  <tr>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Passenger 5"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Age"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Gender"></td>
+    <td><label for="fname"><i class="fa fa-user"></i> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Preference"></td>
+  </tr>
+</table>
+<button type="button" onclick="window.location.href='payment.html'" style="margin-left:45%;
+	margin-top:20px;">PROCEED TO PAY</button>
+</body>
+</html>

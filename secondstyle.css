@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #FEEEDC;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #FEEEDC;
+  color:#975102;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  position: sticky ;
+  overflow: auto;
+  background-color: #322409;
+}
+
+/* Style the topnav links */
+.topnav p {
+  float: left;
+  display: block;
+  color:#FEEEDC;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav p:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 20%;
+  background:#FEEEDC ;
+  height:100%;
+  padding:20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 80%;
+  background-color:#FEEEDC;
+}
+.card {
+  background-color:white;
+  padding:50px;
+  margin-top:10px; 
+  z-index:1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.btn{
+	margin-left:20%;
+	width:80px;
+	height:30px;
+}
+.cancel{
+  margin-left: 80%;
+  top: -50px;
+  width:80px;
+  height:30px;
+  background-color:black;
+  border-color: black;
+}
